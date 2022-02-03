@@ -30,7 +30,7 @@ const Home = () => {
                         Pick up your music right where you left off
                     </p>
                     <button className="green-btn sm:py-4 md:py-4 py-3 px-10 rounded-full text-blue-800 hover:translate-z-3 hover:scale-x-110 hover:scale-y-110 transition-all duration-200">
-                        <a href="https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=3a37138c5fc746f0">
+                        <a href="https://open.spotify.com/playlist/52gtDapY50kKkLEnnnvYgz?si=3a37138c5fc746f0" target="_blank" rel="noreferrer">
                             OPEN WEB PLAYER
                         </a>
                     </button>
