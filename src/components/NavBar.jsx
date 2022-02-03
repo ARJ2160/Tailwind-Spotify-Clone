@@ -16,9 +16,9 @@ const NavBar = ({ toggle }) => {
                 </svg>
             </div>
             <div className="pr-8 md:block hidden">
-                <Link to="/" className="mx-2 cursor-pointer">Premium</Link>
-                <Link to="/" className="mx-2 cursor-pointer">Support</Link>
-                <Link to="/" className="mx-2 cursor-pointer">Download</Link>
+                <Link to="/" className="mx-5 cursor-pointer">Premium</Link>
+                <Link to="/" className="mx-5 cursor-pointer">Support</Link>
+                <Link to="/" className="mx-5 cursor-pointer">Download</Link>
             </div>
         </nav>
     )

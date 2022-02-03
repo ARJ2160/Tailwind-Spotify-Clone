@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import DropDown from "./components/DropDown";
+// import Sidebar from "./components/Sidebar";
 
 function App() {
 
@@ -29,7 +30,8 @@ function App() {
             <NavBar toggle={toggle}/>
             <DropDown isOpen={isOpen} toggle={toggle}/>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home />} /> 
+                {/* <Route path="/" element={<Sidebar />} />  */}
             </Routes>
         </>
     );
